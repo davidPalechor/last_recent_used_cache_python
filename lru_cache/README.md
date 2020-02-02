@@ -94,3 +94,9 @@ lorem ipsum
 >{"action": "put", "key": 4, "data": "Vestibulum lobortis"} 
 ```
 
+
+## Issues
+
+- Cache does not expire on real time
+- Cache does not have in count geo localization of the requester.
+- There is no cache instance choosing algorithm.
