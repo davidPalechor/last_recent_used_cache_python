@@ -8,13 +8,15 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='overlap',
+    name='lru_cache',
     version='0.1.0',
-    description='X-Axis Overlap Checking',
+    description='Distributed LRU Cache',
     long_description=readme,
     author='Sergio Palechor',
     author_email='sergiopalechor@hotmail.com',
-    url='https://github.com/kennethreitz/samplemod',
+    install_requires=['kafka-python==1.4.7'],
+    python_requires='>=3.7.0',
+    url='https://github.com/davidPalechor/sergio_palechor_test/tree/master/lru_cache',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests',))
 )
